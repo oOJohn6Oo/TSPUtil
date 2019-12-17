@@ -4,7 +4,7 @@
    * 跟随User（ userId,userName,token 等）,用户登录时随userID产生，用户退出时删除 - userReleatedSp
    * 跟随其他（推送开关、个性配置等），设置中`删除数据`时删除 - moreSp
 
-![TSpUtil](./source/TSpUtil.gif)
+![TSpUtil](source/TSpUtil.gif)
 ### 用例
 
 	对用户相关的userRelatedSp进行存取操作，需要登录时调用步骤3中的方法设置uId
