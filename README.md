@@ -4,13 +4,13 @@
    * 跟随User（ userId,userName,token 等）,用户登录时随userID产生，用户退出时删除 - userReleatedSp
    * 跟随其他（推送开关、个性配置等），设置中`删除数据`时删除 - moreSp
 
-![TSpUtil](source/TSpUtil.gif)
+![TSpUtil](resource/TSpUtil.gif)
 ### 用例
 
 	对用户相关的userRelatedSp进行存取操作，需要登录时调用步骤3中的方法设置uId
   1. 存
   ```java
-   	// 存入appSp
+    // 存入appSp
 	TSPUtil.get().putInApp("key", any)
     // 存入userSp
 	TSPUtil.get().putInUser("key", any)
@@ -21,7 +21,7 @@
   ```
   2. 取
   ```java
-   	// 从appSp取
+    // 从appSp取
 	TSPUtil.get().getFromApp("key", any)
     // 从userSp取
 	TSPUtil.get().getFromUser("key", any)
