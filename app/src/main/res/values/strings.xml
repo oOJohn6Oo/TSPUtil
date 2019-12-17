@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TSPUtil</string>
+    <string name="app_name">TSPUtilDemo</string>
+    <string name="input_hint">输入你想存储的数据</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.github.john.tsputildemo
+package com.github.john.tsputil
 
 import org.junit.Test
 
